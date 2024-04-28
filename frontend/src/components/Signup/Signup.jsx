@@ -1,10 +1,11 @@
 import { React, useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import styles from "../../styles/styles";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
 import axios from "axios";
 import { server } from "../../server";
+import { toast } from "react-toastify";
 //import { config } from "dotenv";
 //import "./styles.css";
 
@@ -14,7 +15,7 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);
   const [avatar, setAvatar] = useState(null);
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   const handleFileInputChange = (e) => {
     const file = e.target.files[0];
@@ -32,13 +33,15 @@ const Signup = () => {
     newForm.append("password", password);
     axios
       .post(`${server}/user/create-user`, newForm, config)
-      .then((res) => { //navigate after registered
-        if((res.data.success === true)){
-          navigate("/");
-        }
+      .then((res) => { //alert after registered
+        toast.success(res.data.message);     //toast success
+        setName("");      //clear boxes
+        setEmail("");
+        setPassword("");
+        setAvatar();
       })
-      .catch((err) => {
-        console.log(err);
+      .catch((error) => {
+        toast.error(error.response.data.message);  //toast error
       });
   };
 
