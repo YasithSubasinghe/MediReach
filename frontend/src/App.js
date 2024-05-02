@@ -4,20 +4,26 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { LoginPage, SignupPage, ActivationPage } from "./Routes.js";
-import axios from "axios";
-import { server } from "./server.js";
-//import Store from "./redux/store.js";
-//import { loadUser } from "./redux/actions/user.js";
+//import axios from "axios";                     //original before redux change
+//import { server } from "./server.js";          //original before redux change
+import Store from "./redux/store.js";    //redux change
+import { loadUser } from "./redux/actions/user.js";    //redux change
+import { useDispatch } from "react-redux";  //3.0 net console err added this
 
 const App = () => {
+  const dispatch = useDispatch();     //3.0 net console err added this
   useEffect(() => {
-    axios
-    .get(`${server}/user/getuser`,{withCredentials:true}).then((res)=>{
-      toast.success(res.data.message);
-    }).catch((err)=>{
-      toast.error(err.response.data.message);
-    });
-  }, []);
+    //Store.dispatch(loadUser());           //redux change //3.0 net console err I comment this line
+
+    dispatch(loadUser());    //3.0 net console err added this
+
+    // axios                                                                                    //original before redux change
+    // .get(`${server}/user/getuser`,{withCredentials:true}).then((res)=>{                     //original before redux change     
+    //   toast.success(res.data.message);                                                     //original before redux change
+    // }).catch((err)=>{                                                                      //original before redux change
+    //   toast.error(err.response.data.message);                                              //original before redux change
+    // });                                                                                    //original before redux change
+  }, [dispatch]);      //3.0 net console err added this "dispatch" word only
 
   return (
     <BrowserRouter>
