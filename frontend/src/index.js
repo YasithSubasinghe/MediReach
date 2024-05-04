@@ -22,7 +22,7 @@
 
 //////////////redux version error fixed
 import React from 'react';
-import { createRoot } from 'react-dom'; // Import createRoot instead of ReactDOM
+import { createRoot } from 'react-dom/client'; // Import createRoot instead of ReactDOM
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
