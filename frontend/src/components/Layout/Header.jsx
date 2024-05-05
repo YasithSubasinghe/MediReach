@@ -70,7 +70,9 @@ const Header = ({ activeHeading }) => {
 
                     const Product_name = d.replace(/\s+/g, "-");
                     return (
-                      <Link  key={index} to={`/product/${Product_name}`}>    {/*<Link to=  was original and <Link  key={index} to= was edited because of console error **/}
+                      <Link key={index} to={`/product/${Product_name}`}>
+                        {" "}
+                        {/*<Link to=  was original and <Link  key={index} to= was edited because of console error **/}
                         <div className="w-full flex items-start-py-3">
                           <img
                             src={i.image_Url[0].url}
@@ -86,13 +88,39 @@ const Header = ({ activeHeading }) => {
             ) : null}
           </div>
 
-          <div className={`${styles.button}`}>
-            <Link to="/seller">
-              <h1 className="text-[#fff] flex items-center">
-                Become Seller <IoIosArrowForward className="ml-1" />
-              </h1>
-            </Link>
+          {/*heart,cart and profile*/}
+          <div className="flex">
+            
+
+            <div className={`${styles.noramlFlex}`}>
+              <div className="relative cursor-pointer mr-[15px]">
+                <AiOutlineShoppingCart
+                  size={30}
+                  color="rgb(0 0 0/ 83%)"
+                />
+                <span className="absolute right-0 top-0 rounded-full bg-[#3bc177] w-4 h-4 top right p-0 m-0 text-white font-mono text-[12px] leading-tight text-center">
+                  1
+                </span>
+              </div>
+            </div>
+            <div className={`${styles.noramlFlex}`}>
+              <div className="relative cursor-pointer mr-[15px]">
+                <AiOutlineHeart size={30} color="rgb(0 0 0/ 83%)" />
+                <span className="absolute right-0 top-0 rounded-full bg-[#3bc177] w-4 h-4 top right p-0 m-0 text-white font-mono text-[12px] leading-tight text-center">
+                  0
+                </span>
+              </div>
+            </div>
+
+            <div className={`${styles.noramlFlex}`}>
+              <div className="relative cursor-pointer mr-[15px]">
+                <Link to="/login">
+                  <CgProfile size={30} color="rgb(0 0 0/ 83%)" />
+                </Link>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
       <div
@@ -125,41 +153,21 @@ const Header = ({ activeHeading }) => {
               ) : null}
             </div>
           </div>
+
           {/*navitems*/}
           <div className={`${styles.noramlFlex}`}>
             <Navbar active={activeHeading} />
           </div>
-
-          <div className="flex">
-            <div className={`${styles.noramlFlex}`}>
-              <div className="relative cursor-pointer mr-[15px]">
-                <AiOutlineHeart size={30} color="rgb(255 255 255/ 83%)" />
-                <span className="absolute right-0 top-0 rounded-full bg-[#3bc177] w-4 h-4 top right p-0 m-0 text-white font-mono text-[12px] leading-tight text-center">
-                  0
-                </span>
-              </div>
-            </div>
-
-            <div className={`${styles.noramlFlex}`}>
-              <div className="relative cursor-pointer mr-[15px]">
-                <AiOutlineShoppingCart
-                  size={30}
-                  color="rgb(255 255 255/ 83%)"
-                />
-                <span className="absolute right-0 top-0 rounded-full bg-[#3bc177] w-4 h-4 top right p-0 m-0 text-white font-mono text-[12px] leading-tight text-center">
-                  1
-                </span>
-              </div>
-            </div>
-
-            <div className={`${styles.noramlFlex}`}>
-              <div className="relative cursor-pointer mr-[15px]">
-                <Link to="/login">
-                  <CgProfile size={30} color="rgb(255 255 255/ 83%)" />
-                </Link>
-              </div>
-            </div>
+          
+          {/*Become a Seller*/}
+          <div className={`${styles.sellerbutton}`}>
+            <Link to="/seller">
+              <h1 className="text-[#fff] flex items-center text-sm">
+                Become Seller <IoIosArrowForward className="ml-1" />
+              </h1>
+            </Link>
           </div>
+          
         </div>
       </div>
     </>
