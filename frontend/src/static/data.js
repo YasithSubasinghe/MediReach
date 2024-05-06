@@ -281,7 +281,7 @@ export const navItems = [
         name: "Herbal Haven",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png"
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png"
         },
         ratings: 4.7
       },
@@ -310,7 +310,7 @@ export const navItems = [
         name: "Spice Emporium",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png"
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png"
         },
         ratings: 4.2
       },
@@ -338,7 +338,7 @@ export const navItems = [
         name: "Ayurveda Gardens",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png"
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png"
         },
         ratings: 4.2
       },
@@ -367,7 +367,7 @@ export const navItems = [
         name: "Ayurveda Health Store",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
         },
         ratings: 4.2,
         category: "Others"
@@ -397,7 +397,7 @@ export const navItems = [
         name: "Coconut Grove Naturals",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
         },
         ratings: 4.2,
         category: "Shoes"
@@ -428,7 +428,7 @@ export const navItems = [
         name: "Asus Ltd",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
         },
         ratings: 4.2,
       },
@@ -467,7 +467,7 @@ export const navItems = [
         name: "Ayurveda Health Center",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
         },
         ratings: 4.2,
       },
@@ -497,7 +497,7 @@ export const navItems = [
         name: "Asus Ltd",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
         },
         ratings: 4.2,
       },
@@ -536,7 +536,7 @@ export const navItems = [
         name: "Amazon Ltd",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
         },
         ratings: 4.2,
       },
@@ -565,7 +565,7 @@ export const navItems = [
         name: "Asus Ltd",
         shop_avatar: {
           public_id: "test",
-          url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+          url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
         },
         ratings: 4.2,
       },
