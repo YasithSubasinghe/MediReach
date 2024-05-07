@@ -5,6 +5,7 @@ import Categories from "../components/Route/Categories/Categories";
 import BestDeals from "../components/Route/BestDeals/BestDeals";
 
 const HomePage = () => {
+
   return (
     <div>
       <Header activeHeading={1}/>

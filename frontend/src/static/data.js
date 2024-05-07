@@ -411,21 +411,21 @@ export const navItems = [
     ,
     {
       id: 1,
-      name: "Gaming Headphone Asus with mutiple color and free delivery",
+      name: "Shaivala, a seaweed, adds nutritional value and vibrant color to food and supplements",
       description:
-        "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+        "Shaivala, a type of seaweed known for its vibrant green color and rich nutritional profile, thrives in the depths of ocean waters. With its long, slender fronds swaying gently in the currents, Shaivala adds a touch of elegance to underwater ecosystems. Beyond its aesthetic appeal, Shaivala is highly valued for its health benefits.",
       image_Url: [
         {
           public_id: "test",
-          url: "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h763d/h763d-02-500x500.jpg",
+          url: "https://www.liveayurved.com/images/medicinal-plants/shaivala.jpg",
         },
         {
           public_id: "test",
-          url: "https://eratablet.com/wp-content/uploads/2022/08/H51ba6537405f4948972e293927673546u.jpg",
+          url: "https://www.liveayurved.com/images/medicinal-plants/shaivala.jpg",
         },
       ],
       shop: {
-        name: "Asus Ltd",
+        name: "Hela Osu",
         shop_avatar: {
           public_id: "test",
           url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
@@ -446,7 +446,7 @@ export const navItems = [
       ],
       total_sell: 20,
       stock: 10,
-      category:"Music and Gaming"
+      category:"Seaweeds and Algae"
     },
     {
       id: 4,
@@ -480,21 +480,21 @@ export const navItems = [
     ,
     {
       id: 1,
-      name: "Gaming Headphone Asus with mutiple color and free delivery",
+      name: "Organic Wightii Gum: Ayurvedic Oleo-Gum-Resin",
       description:
-        "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+        "Organic Wightii Gum, sourced from the Commiphora Wightii plant, is an Ayurvedic oleo-gum-resin renowned for its organic purity and therapeutic efficacy in traditional medicine.",
       image_Url: [
         {
           public_id: "test",
-          url: "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h763d/h763d-02-500x500.jpg",
+          url: "https://i0.wp.com/www.cultivatornatural.com/wp-content/uploads/2022/07/Commiphora-wightii-Guggulu-Oleo-Gum-Resin-4.jpg?w=1536&ssl=1",
         },
         {
           public_id: "test",
-          url: "https://eratablet.com/wp-content/uploads/2022/08/H51ba6537405f4948972e293927673546u.jpg",
+          url: "https://i0.wp.com/www.cultivatornatural.com/wp-content/uploads/2022/07/Commiphora-wightii-Guggulu-Oleo-Gum-Resin-4.jpg?w=1536&ssl=1",
         },
       ],
       shop: {
-        name: "Asus Ltd",
+        name: "Hela Osu",
         shop_avatar: {
           public_id: "test",
           url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
@@ -518,22 +518,22 @@ export const navItems = [
     },
     {
       id: 2,
-      category:"Mobile and Tablets",
-      name: "Iphone 14 pro max 256 gb ssd and 8 gb ram silver colour",
+      category:"Herbs and Plants",
+      name: "Pure Aloe Extract",
       description:
-        "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+        "Pure Aloe Extract, derived from the succulent Aloe vera plant, offers a natural and soothing remedy, renowned for its myriad of skincare benefits, including hydration, soothing, and rejuvenation.",
       image_Url: [
         {
           public_id: "test",
-          url: "https://m.media-amazon.com/images/I/31Vle5fVdaL.jpg",
+          url: "https://naturalpoland.com/wp-content/uploads/aloe-vera-butter.jpg",
         },
         {
           public_id: "test",
-          url: "https://m.media-amazon.com/images/I/31Vle5fVdaL.jpg",
+          url: "https://naturalpoland.com/wp-content/uploads/aloe-vera-butter.jpg",
         },
       ],
       shop: {
-        name: "Amazon Ltd",
+        name: "Hela Ayu",
         shop_avatar: {
           public_id: "test",
           url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
@@ -547,22 +547,22 @@ export const navItems = [
     },
     {
       id: 1,
-      category:"Music and Gaming",
-      name: "Gaming Headphone Asus with mutiple color and free delivery",
+      category:"Oils and Extracts",
+      name: "Nelli Oil Elixir",
       description:
-        "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+        "Nelli Oil Elixir, extracted from the fruit of the Nelli plant, is a potent herbal oil celebrated for its rejuvenating properties in traditional Ayurvedic medicine, promoting healthy hair and scalp while nourishing and revitalizing the skin",
       image_Url: [
         {
           public_id: "test",
-          url: "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h763d/h763d-02-500x500.jpg",
+          url: "https://i0.wp.com/forestpost.in/wp-content/uploads/2021/09/nelli-oil.png?fit=626%2C418&ssl=1",
         },
         {
           public_id: "test",
-          url: "https://eratablet.com/wp-content/uploads/2022/08/H51ba6537405f4948972e293927673546u.jpg",
+          url: "https://i0.wp.com/forestpost.in/wp-content/uploads/2021/09/nelli-oil.png?fit=626%2C418&ssl=1",
         },
       ],
       shop: {
-        name: "Asus Ltd",
+        name: "Hela Ayu",
         shop_avatar: {
           public_id: "test",
           url: "https://swadeshiherbal.com/wp-content/uploads/2023/02/Capture.png",
