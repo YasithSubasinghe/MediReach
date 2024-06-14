@@ -1,0 +1,1 @@
+MediReach is a MERN stack web application designed to connect Ayurvedic medicine seekers and sellers. This platform aims to streamline the process of finding,selling and purchasing Ayurvedic medicines by providing a user-friendly interface for both seekers and sellers.
